@@ -10,7 +10,7 @@ export NODE_BIN=$NODE_HOME/bin
 export CASPERJS_HOME=$WORK_PATH/node_modules/casperjs
 export CASPERJS_BIN=$CASPERJS_HOME/bin
 
-export PHANTOMJS_HOME=$CASPERJS_HOME/node_modules/phantomjs/lib/phantom
+export PHANTOMJS_HOME=$CASPERJS_HOME/node_modules/phantomjs/
 export PHANTOMJS_BIN=$PHANTOMJS_HOME/bin
 
 export FOREVER_HOME=$WORK_PATH/node_modules/forever
