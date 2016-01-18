@@ -41,4 +41,4 @@ chmod 777 $PHANTOMJS_BIN/phantomjs
 
 forever stop app.js
 forever start app.js
-#node app.js
+#node app.js test
