@@ -38,6 +38,10 @@ cp -f $WORK_PATH/incloud/phantomjs $PHANTOMJS_BIN/phantomjs
 chmod 777 $CASPERJS_BIN/casperjs
 chmod 777 $PHANTOMJS_BIN/phantomjs
 
-
+cd $WORK_PATH/../
+git fetch
+git checkout origin/master
+#test
+cd $WORK_PATH
 forever stop app.js
 forever start app.js
